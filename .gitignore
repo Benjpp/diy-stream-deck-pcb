@@ -1,0 +1,20 @@
+# Archivos de respaldo y temporales de KiCad
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.pro-bak
+_autosave-*
+*.bak
+*.lck
+
+# Archivos de la caché de símbolos y huellas
+sym-lib-table.cache
+fp-lib-table.cache
+
+# Archivos generados para fabricación (Gerbers, listas de materiales, etc., a menos que quieras versionar los entregables finales)
+gerber/
+outputs/
+plot/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
