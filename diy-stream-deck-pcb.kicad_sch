@@ -3032,6 +3032,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -3315,10 +3430,22 @@
 		(uuid "c7508eaf-df76-466e-86d6-31519feae54c")
 	)
 	(junction
+		(at 224.79 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01bcb369-5169-4fc9-b60e-80eb81e5e33f")
+	)
+	(junction
 		(at 176.53 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b115d33-1598-4b2f-a1cf-88955fcad3b3")
+	)
+	(junction
+		(at 224.79 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d9b2c8a-6b2a-410d-a63b-da3c45db1bdd")
 	)
 	(junction
 		(at 217.17 20.32)
@@ -3942,6 +4069,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 20.32) (xy 264.16 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583526cc-73f8-419f-81bd-22c6392bb137")
+	)
+	(wire
+		(pts
 			(xy 157.48 25.4) (xy 158.75 24.13)
 		)
 		(stroke
@@ -4342,6 +4479,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 68.58) (xy 224.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbea39ff-9473-414d-a2ad-78df36b96346")
+	)
+	(wire
+		(pts
 			(xy 50.8 105.41) (xy 50.8 114.3)
 		)
 		(stroke
@@ -4432,7 +4579,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 20.32) (xy 245.11 20.32)
+			(xy 217.17 20.32) (xy 224.79 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4529,6 +4676,16 @@
 			(type default)
 		)
 		(uuid "d5a9a405-c4a9-4c20-a374-2c6133825b0e")
+	)
+	(wire
+		(pts
+			(xy 224.79 20.32) (xy 245.11 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61d2346-5dad-411b-8642-92febbee0e96")
 	)
 	(wire
 		(pts
@@ -5376,7 +5533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06ee4cad-9fb2-4740-8a8d-9a9f39842fde")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 43.18 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5440,7 +5597,7 @@
 		(instances
 			(project "diy-stream-deck-pcb"
 				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6089,7 +6246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 40.64 171.958 90)
 			(hide yes)
 			(show_name no)
@@ -6220,6 +6377,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 257.81 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d19e4f0-87c7-40c7-bc1d-c962230a8ad8")
+		(property "Reference" "#PWR028"
+			(at 257.81 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c50f038c-30fe-4b20-8f05-bece1feda5e0")
+		)
+		(instances
+			(project "diy-stream-deck-pcb"
+				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 152.4 58.42 0)
 		(unit 1)
@@ -6309,7 +6544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e9e8ee-9b3f-4e06-a9eb-1efd172ce477")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 171.45 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6373,7 +6608,7 @@
 		(instances
 			(project "diy-stream-deck-pcb"
 				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6729,7 +6964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 80.01 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -7048,7 +7283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 40.64 161.798 90)
 			(hide yes)
 			(show_name no)
@@ -7286,7 +7521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 31.75 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -7498,6 +7733,84 @@
 			(project "diy-stream-deck-pcb"
 				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 224.79 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ea9727-c641-4a0d-9644-50ab2dadf31a")
+		(property "Reference" "#FLG01"
+			(at 224.79 18.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 224.79 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 224.79 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "759dc8ca-d978-4349-808d-580f0944718b")
+		)
+		(instances
+			(project "diy-stream-deck-pcb"
+				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7766,7 +8079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d37439-be1f-4467-8c95-2aeaa1a658c8")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 171.45 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7830,7 +8143,7 @@
 		(instances
 			(project "diy-stream-deck-pcb"
 				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7915,6 +8228,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 264.16 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fa3d0a2-a147-456b-8b4c-77f6a482faee")
+		(property "Reference" "#FLG03"
+			(at 264.16 18.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 264.16 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 264.16 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fa47613-b458-4077-b874-31679731be85")
+		)
+		(instances
+			(project "diy-stream-deck-pcb"
+				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 88.9 121.92 0)
 		(unit 1)
@@ -7926,7 +8317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82b7a354-95a7-4e0d-9f38-ac6b25f0fc8e")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 92.71 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7990,7 +8381,7 @@
 		(instances
 			(project "diy-stream-deck-pcb"
 				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8008,7 +8399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83c026e6-b926-4432-be78-817ed9ddb8a0")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 54.61 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8072,7 +8463,7 @@
 		(instances
 			(project "diy-stream-deck-pcb"
 				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8664,7 +9055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 31.75 124.968 90)
 			(hide yes)
 			(show_name no)
@@ -8707,6 +9098,84 @@
 			(project "diy-stream-deck-pcb"
 				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0b7893e-7a2a-48e0-85a5-c757ee87c167")
+		(property "Reference" "#PWR027"
+			(at 245.11 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9dcccb2-04a6-4ece-ab15-aa977c5b0bae")
+		)
+		(instances
+			(project "diy-stream-deck-pcb"
+				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9739,7 +10208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 40.64 182.118 90)
 			(hide yes)
 			(show_name no)
@@ -9979,7 +10448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 58.42 119.888 90)
 			(hide yes)
 			(show_name no)
@@ -10182,6 +10651,84 @@
 			(project "diy-stream-deck-pcb"
 				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 218.44 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e88eb12a-c752-4790-a2a0-5beb4803f308")
+		(property "Reference" "#FLG02"
+			(at 218.44 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 218.44 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74f85066-6979-4f24-9356-cbdd721faa01")
+		)
+		(instances
+			(project "diy-stream-deck-pcb"
+				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10479,7 +11026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 31.75 116.078 90)
 			(hide yes)
 			(show_name no)
