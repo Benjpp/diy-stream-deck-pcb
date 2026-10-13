@@ -5625,7 +5625,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "CMD2"
 			(at 44.45 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5635,7 +5635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 44.45 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6636,7 +6636,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "CMD3"
 			(at 44.45 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6646,7 +6646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 44.45 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8571,7 +8571,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "CMD1"
 			(at 44.45 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8581,7 +8581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 44.45 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10040,7 +10040,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "CMD4"
 			(at 44.45 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10050,7 +10050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 44.45 127 0)
 			(hide yes)
 			(show_name no)
