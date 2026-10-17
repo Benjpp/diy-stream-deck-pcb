@@ -1,113 +1,172 @@
 ** Drc report for diy-stream-deck-pcb.kicad_pcb **
-** Created on 2026-10-14T11:39:24 **
+** Created on 2026-10-17T15:57:23 **
 ** Report includes: Errors, Warnings **
 
-** Found 6 DRC violations **
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(150.5000 mm, 60.2000 mm): Pista [+3V3] en (F.Cu), longitud 1.2000 mm
-[silk_overlap]: Silkscreen clearance
-    Rule: restricciones de configuración de placa para serigrafía; warning
-    @(110.5000 mm, 29.3700 mm): Campo de referencia de R15
-    @(107.7700 mm, 32.0000 mm): Arco de D3 en F.Silkscreen
-[silk_overlap]: Silkscreen clearance
-    Rule: restricciones de configuración de placa para serigrafía; warning
-    @(147.0000 mm, 47.1500 mm): Campo de referencia de R6
-    @(146.9700 mm, 47.1900 mm): Segmento de U3 en F.Silkscreen
-[silk_overlap]: Silkscreen clearance
-    Rule: restricciones de configuración de placa para serigrafía; warning
-    @(100.4200 mm, 47.1300 mm): Campo de referencia de R10
-    @(97.1500 mm, 44.0800 mm): Rectángulo de R9 en F.Silkscreen
-[silk_overlap]: Silkscreen clearance
-    Rule: restricciones de configuración de placa para serigrafía; warning
-    @(97.1500 mm, 48.1300 mm): Rectángulo de R10 en F.Silkscreen
-    @(100.4200 mm, 51.1800 mm): Campo de referencia de R11
-[silk_overlap]: Silkscreen clearance
-    Rule: restricciones de configuración de placa para serigrafía; warning
-    @(97.1500 mm, 52.1800 mm): Rectángulo de R11 en F.Silkscreen
-    @(100.4200 mm, 55.2300 mm): Campo de referencia de R12
+** Found 54 DRC violations **
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(149.5000 mm, 50.8000 mm): Campo de referencia de R8
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(149.5000 mm, 50.8000 mm): Campo de referencia de R8
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(132.4125 mm, 43.3000 mm): Campo de referencia de R7
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(132.4125 mm, 43.3000 mm): Campo de referencia de R7
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(97.5000 mm, 25.0000 mm): Campo de referencia de R17
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(155.0000 mm, 58.2000 mm): Campo de referencia de C7
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(155.0000 mm, 58.2000 mm): Campo de referencia de C7
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(100.4200 mm, 47.5000 mm): Campo de referencia de R10
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(150.0000 mm, 33.5000 mm): Campo de referencia de C4
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(150.0000 mm, 33.5000 mm): Campo de referencia de C4
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(141.5000 mm, 39.0000 mm): Campo de referencia de SW2
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(96.6500 mm, 32.0000 mm): Campo de referencia de D4
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(96.6500 mm, 32.0000 mm): Campo de referencia de D4
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(145.5000 mm, 40.7000 mm): Campo de referencia de C5
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(145.5000 mm, 40.7000 mm): Campo de referencia de C5
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(136.0000 mm, 39.0000 mm): Campo de referencia de SW1
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(117.5800 mm, 48.0000 mm): Campo de referencia de R14
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(138.0000 mm, 25.5000 mm): Campo de referencia de J1
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(147.0000 mm, 33.5000 mm): Campo de referencia de R3
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(147.0000 mm, 33.5000 mm): Campo de referencia de R3
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(136.5875 mm, 43.3000 mm): Campo de referencia de R5
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(136.5875 mm, 43.3000 mm): Campo de referencia de R5
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(149.0000 mm, 57.3000 mm): Campo de referencia de C8
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(149.0000 mm, 57.3000 mm): Campo de referencia de C8
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(132.0000 mm, 36.0000 mm): Campo de referencia de U1
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(150.3625 mm, 27.1000 mm): Campo de referencia de U2
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(134.5000 mm, 36.0000 mm): Campo de referencia de R2
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(134.5000 mm, 36.0000 mm): Campo de referencia de R2
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(118.5000 mm, 53.0000 mm): Campo de referencia de C10
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(117.5800 mm, 43.5000 mm): Campo de referencia de R13
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(110.7000 mm, 32.0000 mm): Campo de referencia de D3
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(110.7000 mm, 32.0000 mm): Campo de referencia de D3
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(143.4000 mm, 34.1500 mm): Campo de referencia de D1
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(145.5000 mm, 44.3000 mm): Campo de referencia de R6
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(145.5000 mm, 44.3000 mm): Campo de referencia de R6
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(137.5000 mm, 35.7000 mm): Campo de referencia de R4
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(137.5000 mm, 35.7000 mm): Campo de referencia de R4
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(100.5000 mm, 51.5000 mm): Campo de referencia de R11
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(103.7000 mm, 32.0000 mm): Campo de referencia de D2
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(103.7000 mm, 32.0000 mm): Campo de referencia de D2
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(155.0000 mm, 62.2000 mm): Campo de referencia de C6
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(155.0000 mm, 62.2000 mm): Campo de referencia de C6
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(129.5000 mm, 30.0000 mm): Campo de referencia de R1
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(129.5000 mm, 30.0000 mm): Campo de referencia de R1
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(100.4200 mm, 43.5000 mm): Campo de referencia de R9
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(100.4200 mm, 55.5000 mm): Campo de referencia de R12
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(110.5000 mm, 25.0000 mm): Campo de referencia de R15
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(143.5000 mm, 27.5000 mm): Campo de referencia de C1
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(143.5000 mm, 27.5000 mm): Campo de referencia de C1
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(143.5000 mm, 31.0000 mm): Campo de referencia de C2
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(143.5000 mm, 31.0000 mm): Campo de referencia de C2
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,5000 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(125.0800 mm, 25.0000 mm): Campo de referencia de R16
+[text_thickness]: Ancho del texto fuera del rango (restricciones de configuración de placa para ancho de texto de serigrafía grosor mínimo 0,0800 mm; real 0,0625 mm)
+    Rule: restricciones de configuración de placa para ancho de texto de serigrafía; warning
+    @(149.5000 mm, 48.0000 mm): Campo de referencia de C9
+[text_height]: Altura del texto fuera del rango (restricciones de configuración de placa para alto de texto de serigrafía altura mínima 0,8000 mm; real 0,2500 mm)
+    Rule: restricciones de configuración de placa para alto de texto de serigrafía; warning
+    @(149.5000 mm, 48.0000 mm): Campo de referencia de C9
 
-** Found 20 unconnected pads **
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(129.5000 mm, 37.9500 mm): Pad 2 [GND] de U1 en F.Cu
-    @(134.1000 mm, 41.0000 mm): Pad 1 [GND] de SW1 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(132.9050 mm, 29.2100 mm): Pad PTH SH [GND] de J1
-    @(129.5000 mm, 30.5250 mm): Pad 2 [GND] de R1 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(132.9050 mm, 32.1900 mm): Pad PTH SH [GND] de J1
-    @(134.5000 mm, 32.9500 mm): Pad B1 [GND] de J1 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(134.1000 mm, 41.0000 mm): Pad 1 [GND] de SW1 en F.Cu
-    @(135.5000 mm, 36.0250 mm): Pad 2 [GND] de R2 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(134.5000 mm, 32.9500 mm): Pad B1 [GND] de J1 en F.Cu
-    @(134.9000 mm, 32.9500 mm): Pad A12 [GND] de J1 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(135.5000 mm, 36.0250 mm): Pad 2 [GND] de R2 en F.Cu
-    @(134.9000 mm, 32.9500 mm): Pad A12 [GND] de J1 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(139.8000 mm, 41.0000 mm): Pad 1 [GND] de SW2 en F.Cu
-    @(134.1000 mm, 41.0000 mm): Pad 1 [GND] de SW1 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(139.8000 mm, 41.0000 mm): Pad 1 [GND] de SW2 en F.Cu
-    @(146.1000 mm, 42.0000 mm): Pad 2 [GND] de C5 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(140.1000 mm, 32.9500 mm): Pad B12 [GND] de J1 en F.Cu
-    @(140.5000 mm, 32.9500 mm): Pad A1 [GND] de J1 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(140.5000 mm, 32.9500 mm): Pad A1 [GND] de J1 en F.Cu
-    @(142.0950 mm, 32.1900 mm): Pad PTH SH [GND] de J1
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(142.0950 mm, 32.1900 mm): Pad PTH SH [GND] de J1
-    @(144.0500 mm, 31.5000 mm): Pad 2 [GND] de C2 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(143.8000 mm, 35.5000 mm): Pad 2 [GND] de D1 en F.Cu
-    @(142.0950 mm, 32.1900 mm): Pad PTH SH [GND] de J1
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(145.9500 mm, 29.0000 mm): Pad 2 [GND] de C1 en F.Cu
-    @(144.0500 mm, 31.5000 mm): Pad 2 [GND] de C2 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(146.6100 mm, 48.2000 mm): Pad 9 [GND] de U3 en F.Cu
-    @(151.9000 mm, 49.5000 mm): Pad 2 [GND] de C9 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(146.6100 mm, 48.2000 mm): Pad 9 [GND] de U3 en F.Cu
-    @(146.1000 mm, 42.0000 mm): Pad 2 [GND] de C5 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(148.5000 mm, 29.5000 mm): Pad 2 [GND] de U2 en F.Cu
-    @(145.9500 mm, 29.0000 mm): Pad 2 [GND] de C1 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(151.4500 mm, 58.5000 mm): Pad 2 [GND] de C8 en F.Cu
-    @(155.9000 mm, 59.5000 mm): Pad 2 [GND] de C7 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(151.4500 mm, 58.5000 mm): Pad 2 [GND] de C8 en F.Cu
-    @(151.9000 mm, 49.5000 mm): Pad 2 [GND] de C9 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(152.0000 mm, 35.0000 mm): Pad 2 [GND] de C4 en F.Cu
-    @(148.5000 mm, 29.5000 mm): Pad 2 [GND] de U2 en F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(155.9500 mm, 63.5000 mm): Pad 2 [GND] de C6 en F.Cu
-    @(155.9000 mm, 59.5000 mm): Pad 2 [GND] de C7 en F.Cu
+** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
 
