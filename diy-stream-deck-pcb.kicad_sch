@@ -3836,12 +3836,6 @@
 		(uuid "fe133382-e8c0-4840-9806-ad592c03ba88")
 	)
 	(junction
-		(at 224.79 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01bcb369-5169-4fc9-b60e-80eb81e5e33f")
-	)
-	(junction
 		(at 176.53 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4575,7 +4569,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 20.32) (xy 247.65 20.32)
+			(xy 245.11 20.32) (xy 257.81 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5035,7 +5029,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 20.32) (xy 224.79 20.32)
+			(xy 217.17 20.32) (xy 245.11 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5072,16 +5066,6 @@
 			(type default)
 		)
 		(uuid "cc17ae8e-8fd0-4027-a36c-0ecb4a749646")
-	)
-	(wire
-		(pts
-			(xy 255.27 20.32) (xy 257.81 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc3e68c-deb0-4378-bd23-3f8085a0679a")
 	)
 	(wire
 		(pts
@@ -5132,16 +5116,6 @@
 			(type default)
 		)
 		(uuid "d5a9a405-c4a9-4c20-a374-2c6133825b0e")
-	)
-	(wire
-		(pts
-			(xy 224.79 20.32) (xy 245.11 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d61d2346-5dad-411b-8642-92febbee0e96")
 	)
 	(wire
 		(pts
@@ -6206,86 +6180,6 @@
 			(project "diy-stream-deck-pcb"
 				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 251.46 20.32 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18ccfc9c-170f-4cf6-b08e-bf9452764834")
-		(property "Reference" "R3"
-			(at 251.46 13.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 251.46 16.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 251.46 18.542 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 251.46 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9505358b-3362-4535-8515-47596612442c")
-		)
-		(pin "1"
-			(uuid "365e7fc7-6656-4508-8449-3d48ce3deed2")
-		)
-		(instances
-			(project "diy-stream-deck-pcb"
-				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8337,84 +8231,6 @@
 			(project "diy-stream-deck-pcb"
 				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 224.79 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62ea9727-c641-4a0d-9644-50ab2dadf31a")
-		(property "Reference" "#FLG01"
-			(at 224.79 18.415 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 224.79 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 224.79 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "759dc8ca-d978-4349-808d-580f0944718b")
-		)
-		(instances
-			(project "diy-stream-deck-pcb"
-				(path "/6446e006-a6c3-4f5c-b769-2813a7a1b115"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
